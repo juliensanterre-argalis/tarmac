@@ -3,6 +3,3 @@ vendor/
 *.log
 /web/
 /qualiopi/
-export_formation.json
-export_session.json
-organism.json
