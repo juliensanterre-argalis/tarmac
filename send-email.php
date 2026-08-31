@@ -2,8 +2,8 @@
 // ============================================
 // Configuration Mailgun
 // ============================================
-$MAILGUN_API_KEY = 'VOTRE_CLE_API_MAILGUN';
-$MAILGUN_DOMAIN = 'argalis.fr';
+$MAILGUN_API_KEY = getenv('MAILGUN_API_KEY') ?: 'VOTRE_CLE_API_MAILGUN';
+$MAILGUN_DOMAIN = getenv('MAILGUN_DOMAIN') ?: 'argalis.fr';
 
 // Variables par défaut (seront écrasées par les données reçues du JavaScript)
 $RECIPIENT_EMAIL = 'contact@votredomaine.com';
