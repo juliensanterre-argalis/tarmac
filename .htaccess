@@ -3,7 +3,7 @@ RewriteEngine On
 RewriteBase /
 
 # Redirect CGV vers le PDF
-RewriteRule ^cgv/?$ /Documents/CGV.pdf [R=301,L]
+RewriteRule ^cgv/?$ /Documents/CGV%20Formation%20MAR22.pdf [R=301,L]
 
 # Supprimer le slash final (sauf racine) pour URLs canoniques
 RewriteCond %{REQUEST_URI} ^/(.+)/$
