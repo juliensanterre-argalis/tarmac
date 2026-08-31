@@ -1,7 +1,7 @@
 <div class="custom-page pb-16">
-  <!-- Hero Section -->
-  <div class="relative flex items-center justify-center" style="height: 35vh; overflow: hidden;">
-    <img src="Assets/Formation_plateau-technique-formation-chariot-scaled.jpg" alt="Centre de formation Loxam" class="absolute inset-0 w-full h-full object-cover">
+  <!-- Hero Section (full-bleed, casse le conteneur max-w-7xl p-6 des pages statiques) -->
+  <div class="relative flex items-center justify-center" style="height: 45vh; overflow: hidden; width: 100vw; margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw);">
+    <img src="Assets/MG_9329-training-TARMAC.jpg" alt="Centre de formation Tarmac Aerosave" class="absolute inset-0 w-full h-full object-cover">
     <div class="absolute inset-0 bg-black bg-opacity-60"></div>
     <div class="relative z-10 text-center px-4">
       <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-md">Notre centre de formation</h1>
@@ -29,7 +29,7 @@
       .img-tooltip-wrap .tooltip-overlay {
         position: absolute;
         inset: 0;
-        background: rgba(179, 27, 32, 0.82);
+        background: rgba(0, 40, 87, 0.85);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -52,94 +52,114 @@
     <!-- Images avec tooltip au survol -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
       <div class="img-tooltip-wrap shadow-sm">
-        <img src="Assets/Realite-virtuelle-2-e1619185057537.png" alt="Réalité virtuelle">
-        <div class="tooltip-overlay"><p>Des modules de formation en réalité virtuelle pour les Plateformes Élévatrices Mobiles de Personnes (PEMP) ont été conçus par nos experts. La réalité virtuelle offre un confort d'apprentissage et permet d'appréhender et d'évaluer l'utilisation des PEMP dans un environnement sûr et contrôlé.</p></div>
+        <img src="Assets/20211116_102010-training-TARMAC.jpg" alt="Simulateur de mise en marche moteur">
+        <div class="tooltip-overlay"><p>Nos formations « Mise en marche moteur » se déroulent sur simulateur, dans les conditions réelles d'un cockpit, pour former nos stagiaires en toute sécurité.</p></div>
       </div>
       <div class="img-tooltip-wrap shadow-sm">
-        <img src="Assets/salle-de-formation-1.png" alt="Salle de formation">
-        <div class="tooltip-overlay"><p>Contenu pédagogique : des supports pédagogiques variés, un équilibre entre théorie et pratique, des connaissances adaptées à la famille d'engins concernée, des petits groupes de 2 à 6 stagiaires et des formateurs qualifiés font la force de nos formations.</p></div>
+        <img src="Assets/DJI_0004.jpg" alt="Environnement de maintenance réel">
+        <div class="tooltip-overlay"><p>Nos formations se déroulent au cœur d'un environnement de maintenance aéronautique réel, au contact direct des avions en stockage, maintenance ou déconstruction.</p></div>
       </div>
       <div class="img-tooltip-wrap shadow-sm">
-        <img src="Assets/plateau-techniques-4.png" alt="Plateaux techniques">
-        <div class="tooltip-overlay"><p>Les plateformes de formation et les matériels sont conformes aux exigences du référentiel CACES® 2020 et des réglementations. Des matériels récents et des équipements complets et fiables vous assurent un environnement propice à l'apprentissage. Nos plateaux techniques reproduisent les conditions réelles de chantier.</p></div>
+        <img src="Assets/DJI_0103-training-TARMAC.jpg" alt="Nos sites en France et en Espagne">
+        <div class="tooltip-overlay"><p>Nos sites de Tarbes, Toulouse-Francazal et Teruel (Espagne) accueillent près de 280 avions, offrant un cadre pédagogique unique en Europe.</p></div>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row gap-8 mb-10 items-start">
+      <div class="md:w-1/2">
+        <p class="mb-4 leading-relaxed">
+          Notre centre est heureux de vous accueillir dans un environnement de maintenance aéronautique réel, avec près de 280 avions répartis sur nos sites en France et en Espagne.
+        </p>
+        <p class="mb-4 leading-relaxed">
+          Nos activités couvrent un large éventail de formations, allant de la formation à la gestion des dommages causés par les corps étrangers (FOD) à la qualification de type, en incluant la formation « Mise en marche moteur » sur simulateur et la formation « Culture et technologies aéronautiques », permettant au personnel de soutien d'acquérir une meilleure compréhension du monde de l'aéronautique.
+        </p>
+      </div>
+      <div class="md:w-1/2">
+        <img src="Assets/20220314_1548481-training-TARMAC-scaled.jpg" alt="Salle de formation Tarmac Aerosave" class="w-full h-auto rounded shadow-sm object-cover">
       </div>
     </div>
 
     <p class="mb-4 leading-relaxed">
-      Loxam Formation est une entité du Groupe LOXAM, qui offre une large gamme de formations réglementaires et certifiantes, partout en France grâce à son réseau d'agences et d'organismes partenaires.
+      Soucieux de la qualité de nos formations, nous accordons une attention particulière à l'écoute de nos clients et proposons des formations personnalisées afin de répondre au mieux à leurs besoins.
     </p>
 
     <p class="mb-4 leading-relaxed">
-      Notre catalogue comprend plus de 50 références, pour répondre à tous les besoins opérationnels et techniques des professionnels :
-    </p>
-    
-    <ul class="list-disc list-inside mb-6 space-y-1 ml-2">
-      <li>CACES®,</li>
-      <li>Formations réglementaires pour la prévention des risques professionnels: la santé physique, les travaux à proximité des réseaux (AIPR), l'utilisation d'échafaudages, le travail en hauteur, le montage et l'utilisation d'échafaudages fixes et roulants,</li>
-      <li>Des formations de formateur</li>
-      <li>Des formations reconnues à l’international via l’IPAF</li>
-    </ul>
-
-    <p class="mb-4 leading-relaxed">
-      Notre équipe d'experts vous fournit une formule sur-mesure qui respecte vos impératifs : programme, outils pédagogiques, simulateur de réalité virtuelle, déplacement sur chantier ou en entreprise... Les démarches administratives et le suivi de votre dossier sont réalisés par nos équipes, pour vous fournir une assurance clé en main.
+      Les formations peuvent être dispensées dans les locaux de Tarmac Aerosave et/ou dans les locaux du client, en fonction du nombre de participants et du planning.
     </p>
 
     <p class="mb-10 leading-relaxed">
-      Depuis 2022 Loxam Formation est certifié Qualiopi, gage de la qualité des prestations. Cette certification honore les pratiques de formation dispensées dans nos centres et confirme notre engagement pour la sécurité de nos partenaires et nos équipes. En 2023, nous avons prodigué plus de 5 000 h de formations.
+      Pour toute information, veuillez contacter <a href="mailto:training@tarmacaerosave.aero" class="text-[#002857] font-medium underline">training@tarmacaerosave.aero</a>.
+    </p>
+
+    <p class="mb-4 leading-relaxed">
+      Notre catalogue comprend plus de 45 références réparties en deux grandes catégories, pour répondre aux besoins de tous les acteurs de la maintenance aéronautique :
+    </p>
+
+    <ul class="list-disc list-inside mb-6 space-y-1 ml-2">
+      <li><strong>Formations Part 147</strong> : qualifications de type et différences moteurs sur les familles Airbus (A320, A330, A340) et Boeing, incluant les modules généralités et les parties pratiques,</li>
+      <li><strong>Formations hors Part 147</strong> : formations réglementaires Part 145 (MOE, sensibilisation MOE/SGS, recyclage réglementaire, CDCCL & sécurité réservoirs carburant) et formations complémentaires (FOD, culture et technologies aéronautiques, mise en marche moteur sur simulateur...).</li>
+    </ul>
+
+    <p class="mb-4 leading-relaxed">
+      Tarmac Aerosave Formation est certifié Qualiopi depuis janvier 2022, gage de la qualité de nos prestations. Cette certification honore les pratiques de formation dispensées dans nos centres et confirme notre engagement pour la sécurité de nos partenaires et de nos équipes.
+    </p>
+
+    <p class="mb-10 leading-relaxed">
+      Notre centre est également <strong>agréé organisme de formation à la maintenance</strong> par l'OSAC, au titre de la Partie 147 du règlement (UE) n°1321/2014, sous la référence <a href="Documents/FR1470050_CERTIF_20210512_REV2.pdf" target="_blank" rel="noopener noreferrer" class="text-[#002857] font-medium underline">FR.147.0050</a>, ce qui nous permet de dispenser les formations et examens de qualification de type sur les familles Airbus et Boeing.
     </p>
 
     <!-- Logos section -->
-    <div class="flex items-center justify-center gap-12 mb-12">
+    <div class="flex items-center justify-center gap-12 mb-16">
       <img src="Assets/3DX-internet_Logo_certification_qualiopi.png" alt="Qualiopi" class="h-16 object-contain">
-      <img src="Assets/ipaf_logo_ok.png" alt="IPAF" class="h-16 object-contain">
     </div>
 
-    <h2 class="text-xl font-bold text-foreground mb-6">Notre expertise à votre disposition</h2>
-    
-    <p class="font-bold text-foreground mb-2">Une solution clé en main :</p>
-    <ul class="list-disc list-inside mb-6 space-y-1 ml-2">
-      <li>Un interlocuteur unique en France qui vous accompagne dans vos démarches et organise votre session de formation.</li>
-      <li>Des salles de formation équipées au sein de notre réseau d'agences, avec parking privé.</li>
-      <li>Des vestiaires avec armoire individuelle fermées.</li>
-      <li>Des plateaux techniques et terrains conformes à la réforme CACES® 2020.</li>
-    </ul>
+    <h2 class="text-xl font-bold text-foreground mb-6">Accès à notre centre</h2>
 
-    <p class="font-bold text-foreground mb-2">Des formations sur-mesure :</p>
-    <ul class="list-disc list-inside mb-10 space-y-1 ml-2">
-      <li>Programmes dont les durées par session, débutants ou confirmés.</li>
-      <li>Une formation théorique.</li>
-      <li>Une mise en situation à la création de la réalité du chantier avec un matériel adapté à l'enseignement.</li>
-    </ul>
+    <div class="flex flex-col md:flex-row gap-10 mb-4">
+      <div class="md:w-1/2">
+        <p class="font-bold text-foreground mb-1">Tarmac Aerosave</p>
+        <p class="mb-4 leading-relaxed">
+          L'Aérodrome Tarbes-Lourdes-Pyrénées<br>
+          65380 Azereix, France<br>
+          Tél. : +33 (0)5 62 42 89 90
+        </p>
 
+        <p class="font-bold text-foreground mb-2">En voiture :</p>
+        <ul class="list-disc list-inside mb-4 space-y-1 ml-2">
+          <li>Prendre la sortie 12 de l'A64 / La Pyrénéenne,</li>
+          <li>Au rond-point, tourner à gauche sur la N21,</li>
+          <li>Continuer sur la N21 pendant 9,5 km,</li>
+          <li>Tourner à droite sur la D93 en direction de l'aéroport Tarbes-Lourdes,</li>
+          <li>Au rond-point, tourner à droite en direction de Tarmac Aerosave (panneau rouge),</li>
+          <li>Tarmac Aerosave se trouve alors sur votre gauche.</li>
+        </ul>
 
+        <p class="font-bold text-foreground mb-2">En avion :</p>
+        <ul class="list-disc list-inside mb-4 space-y-1 ml-2">
+          <li>5 min de l'aéroport de Tarbes-Lourdes-Pyrénées (vols quotidiens vers Paris-Orly),</li>
+          <li>30 min de l'aéroport de Pau-Pyrénées (vols quotidiens vers Paris-CDG),</li>
+          <li>1h30 de l'aéroport de Toulouse-Blagnac.</li>
+        </ul>
 
-    <p class="font-bold text-foreground mb-2">Un point de contact unique pour toutes vos formations</p>
-    <ul class="list-disc list-inside mb-10 space-y-1 ml-2">
-      <li>Une équipe dédiée composée d'experts de la formation vous conseille et vous accompagne tout au long de votre projet.</li>
-    </ul>
+        <p class="font-bold text-foreground mb-2">Transferts depuis/vers l'aéroport :</p>
+        <ul class="list-disc list-inside mb-4 space-y-1 ml-2">
+          <li><strong>Location de voiture</strong> : des comptoirs sont disponibles dans tous les aéroports à proximité de nos sites.</li>
+          <li><strong>Taxi</strong> : nous bénéficions de tarifs préférentiels auprès de compagnies de taxi locales. Contactez votre référent formation pour organiser votre transfert.</li>
+        </ul>
+      </div>
 
-    <h2 class="text-xl font-bold text-foreground mb-6">Comment ça marche ?</h2>
-    
-    <p class="font-bold text-foreground mb-2">Les formations s’effectuent en groupes adaptés à la session initiale ou recyclage d’une formation avec :</p>
-    <ul class="list-disc list-inside mb-6 space-y-1 ml-2">
-      <li>Une formation théorique,</li>
-      <li>Une mise en situation en conditions réelles de chantier avec un matériel adapté à l'enseignement.</li>
-    </ul>
-
-    <p class="font-bold text-foreground mb-2">Pré-requis :</p>
-    <ul class="list-disc list-inside mb-6 space-y-1 ml-2">
-      <li>Être âgé de 18 ans minimum,</li>
-      <li>Présenter les aptitudes médicales requises,</li>
-      <li>Maîtriser la langue française, à l'écrit comme à l'oral,</li>
-      <li>Porter des équipements de protection individuelle.</li>
-    </ul>
-
-    <p class="font-bold text-foreground mb-2">Gagnez du temps grâce à notre site internet :</p>
-    <ul class="list-disc list-inside mb-6 space-y-1 ml-2">
-      <li>Accédez en ligne au <span onclick="navigateToCatalogue()" class="text-[#e0001a] font-medium underline cursor-pointer">catalogue des formations</span> LOXAM.</li>
-      <li>Visualisez les <span onclick="navigateToSessions()" class="text-[#e0001a] font-medium underline cursor-pointer">disponibilités de chaque site</span> de formation.</li>
-    </ul>
+      <div class="md:w-1/2">
+        <div class="rounded shadow-sm overflow-hidden mb-4" style="aspect-ratio: 4/3;">
+          <iframe
+            src="https://www.google.com/maps?q=TARMAC+AEROSAVE,+A%C3%A9rodrome+Tarbes-Lourdes-Pyr%C3%A9n%C3%A9es,+65380+Azereix&output=embed"
+            width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Plan d'accès Tarmac Aerosave - Tarbes"></iframe>
+        </div>
+        <a href="Documents/Access-Map_Tarbes.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-[#002857] text-white hover:bg-[#001c3d] h-10 px-6 py-2 w-full">
+          Télécharger le plan d'accès (PDF)
+        </a>
+      </div>
+    </div>
 
   </div>
 </div>
-

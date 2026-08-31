@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.loxamformation.com/sitemap.xml
+Sitemap: https://www.training.tarmacaerosave.aero/sitemap.xml

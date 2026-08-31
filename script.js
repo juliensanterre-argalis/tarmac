@@ -807,7 +807,7 @@ async function loadCustomPage(slug, fileUrl, targetContainerId) {
       container.innerHTML = html;
       customPagesCache[slug] = true;
       
-      // Injecter dynamiquement les stats (ex: page d'accueil custom Loxam)
+      // Injecter dynamiquement les stats (ex: page d'accueil custom Tarmac Aerosave)
       const rateElement = container.querySelector('#dynamic-success-rate');
       const dateElement = container.querySelector('#dynamic-success-date');
       
@@ -1810,7 +1810,7 @@ function injectOrganismInfo() {
                 </button>
               `).join('');
             })()}
-            <a href="./Documents/CGV.pdf" target="_blank" rel="noopener noreferrer" style="color: hsl(var(--muted-foreground)); font-size: 0.875rem; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='hsl(var(--primary))'" onmouseout="this.style.color='hsl(var(--muted-foreground))'">
+            <a href="./Documents/CGV Formation MAR22.pdf" target="_blank" rel="noopener noreferrer" style="color: hsl(var(--muted-foreground)); font-size: 0.875rem; text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='hsl(var(--primary))'" onmouseout="this.style.color='hsl(var(--muted-foreground))'">
               Nos CGV
             </a>
           </div>
