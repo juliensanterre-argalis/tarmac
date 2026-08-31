@@ -36,11 +36,3 @@ RewriteRule ^ index.html [L]
     Header set Access-Control-Allow-Methods "POST"
     Header set Access-Control-Allow-Headers "Content-Type"
 </FilesMatch>
-
-# Sécurité : bloquer l'accès direct aux fichiers sensibles
-<FilesMatch "\.(json)$">
-    <If "%{REQUEST_URI} =~ m#/(organism|local)\.json#">
-        Order Allow,Deny
-        Allow from all
-    </If>
-</FilesMatch>
