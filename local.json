@@ -6,7 +6,7 @@
             "label": "Qui sommes-nous ?",
             "menu": true,
             "children": [
-                { "slug": "le-groupe-tarmac-aerosave", "label": "Le Groupe Tarmac Aerosave", "file": "le-groupe.html", "footer": true },
+                { "slug": "le-groupe-tarmac-aerosave", "label": "Le Groupe TARMAC Aerosave", "file": "le-groupe.html", "footer": true },
                 { "slug": "notre-centre-de-formation", "label": "Notre centre de formation", "file": "centre-formation.html", "footer": true },
                 { "slug": "notre-expertise", "label": "Notre expertise", "file": "notre-expertise.html", "footer": true }
             ]

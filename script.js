@@ -801,13 +801,13 @@ async function loadCustomPage(slug, fileUrl, targetContainerId) {
   }
 
   try {
-    const response = await fetch(fileUrl);
+    const response = await fetch(fileUrl, { cache: 'no-store' });
     if (response.ok) {
       const html = await response.text();
       container.innerHTML = html;
       customPagesCache[slug] = true;
       
-      // Injecter dynamiquement les stats (ex: page d'accueil custom Tarmac Aerosave)
+      // Injecter dynamiquement les stats (ex: page d'accueil custom TARMAC Aerosave)
       const rateElement = container.querySelector('#dynamic-success-rate');
       const dateElement = container.querySelector('#dynamic-success-date');
       
