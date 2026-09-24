@@ -3,3 +3,4 @@ vendor/
 *.log
 /web/
 /qualiopi/
+/data/

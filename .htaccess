@@ -2,6 +2,14 @@ Options -Indexes -MultiViews
 RewriteEngine On
 RewriteBase /
 
+# Bloquer l'accès direct au FS Bucket (/data/) ; la réécriture interne ci-dessous reste autorisée
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^data(/|$) - [F,NC]
+
+# Exports JSON : servis depuis le FS Bucket (/data) s'ils y sont présents, sinon repli sur la racine
+RewriteCond %{DOCUMENT_ROOT}/data/$1.json -f
+RewriteRule ^(export_formation|export_session|organism)\.json$ data/$1.json [L]
+
 # Redirect CGV vers le PDF
 RewriteRule ^cgv/?$ /Documents/CGV%20Formation%20MAR22.pdf [R=301,L]
 
@@ -28,6 +36,13 @@ RewriteRule ^ index.html [L]
     ExpiresByType text/css "access plus 1 week"
     ExpiresByType application/javascript "access plus 1 week"
     ExpiresByType application/json "access plus 1 day"
+</IfModule>
+
+# Pas de cache navigateur pour les JSON (mis à jour chaque nuit)
+<IfModule mod_headers.c>
+    <FilesMatch "\.json$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
 </IfModule>
 
 # CORS pour send-email.php
