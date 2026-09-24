@@ -1419,9 +1419,10 @@ function mapAndCleanData(rawFormations) {
       groupe: cleanValue(formation.produit_groupe, 'Non classé'),
       duree_heures: cleanValue(formation.duree_heure, 'Non spécifiée'),
       duree_jours: cleanValue(formation.duree_jour, null),
+      // Tarifs masqués à la demande du client : "Nous contacter" est affiché partout à la place
       prix: {
-        apprenant: cleanValue(formation.prix_apprenant),
-        groupe: cleanValue(formation.prix_groupe)
+        apprenant: '',
+        groupe: ''
       },
       reference: cleanValue(formation.reference, 'N/A'),
       code_produit: cleanValue(formation.code_produit, null),
@@ -2142,22 +2143,6 @@ function renderCatalogue(formations) {
                 <div id="duree-range-slider"></div>
               </div>
 
-              <!-- Filtre Type de Prix + Budget avec range slider -->
-              <div>
-                <label style="display: block; font-weight: 600; margin-bottom: 0.75rem; color: hsl(var(--foreground)); display: flex; align-items: center; gap: 0.5rem;">
-                  <svg style="width: 1rem; height: 1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 15.536c-1.171 1.952-3.07 1.952-4.242 0-1.172-1.953-1.172-5.119 0-7.072 1.171-1.952 3.07-1.952 4.242 0M8 10.5h4m-4 3h4m9-1.5a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                  Budget ${advancedFilters.prixType ? `(par ${advancedFilters.prixType})` : ''}
-                </label>
-                <select onchange="updateFilter('prixType', this.value)" class="w-full" style="padding: 0.5rem; border: 1px solid hsl(var(--border)); border-radius: 0.375rem; background: white; font-size: 0.875rem; margin-bottom: 0.75rem;">
-                  <option value="">Type de tarif</option>
-                  <option value="apprenant" ${advancedFilters.prixType === 'apprenant' ? 'selected' : ''}>Par apprenant</option>
-                  <option value="groupe" ${advancedFilters.prixType === 'groupe' ? 'selected' : ''}>Par groupe</option>
-                </select>
-                <div id="prix-range-slider"></div>
-              </div>
-
               <!-- Filtre Certification -->
               <div>
                 <label style="display: block; font-weight: 600; margin-bottom: 0.75rem; color: hsl(var(--foreground)); display: flex; align-items: center; gap: 0.5rem;">
@@ -2446,7 +2431,7 @@ function getPrixHTMLCard(prix) {
   }
 
   if (parts.length === 0) {
-    return '<div style="font-weight: 600; color: hsl(var(--muted-foreground)); font-size: 0.85rem;">Nous consulter</div>';
+    return '<div style="font-weight: 600; color: hsl(var(--muted-foreground)); font-size: 0.85rem;">Nous contacter</div>';
   }
 
   // Afficher les prix les uns sous les autres, justifiés à gauche
@@ -2466,7 +2451,7 @@ function getPrixHTML(prix) {
   }
 
   if (parts.length === 0) {
-    return '<div style="font-weight: 600; color: hsl(var(--muted-foreground)); font-size: 0.85rem; text-align: center;">Nous consulter</div>';
+    return '<div style="font-weight: 600; color: hsl(var(--muted-foreground)); font-size: 0.85rem; text-align: center;">Nous contacter</div>';
   }
 
   // Si deux prix, les mettre sur la même ligne avec un séparateur
@@ -4067,7 +4052,7 @@ function renderSessionDetail(session, formation) {
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 15.536c-1.171 1.952-3.07 1.952-4.242 0-1.172-1.953-1.172-5.119 0-7.072 1.171-1.952 3.07-1.952 4.242 0M8 10.5h4m-4 3h4m9-1.5a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                       </svg>
                       <span style="font-size: 0.95rem; color: hsl(var(--foreground));">
-                        <strong>Nous consulter</strong>
+                        <strong>Nous contacter</strong>
                       </span>
                     </div>
                   `}
