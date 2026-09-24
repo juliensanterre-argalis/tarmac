@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.training.tarmacaerosave.aero/sitemap.xml
+Sitemap: https://training.tarmacaerosave.aero/sitemap.xml

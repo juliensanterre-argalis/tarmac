@@ -645,7 +645,7 @@ function initFormListeners() {
 
     try {
       // Envoyer la requête vers le serveur PHP
-      const response = await fetch('../../source/send-email.php', {
+      const response = await fetch('/send-email.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -6,22 +6,22 @@ TARMAC Aerosave Formation s'appuie sur l'expertise terrain du Groupe TARMAC Aero
 
 ## Formations phares
 
-- [Qualification de Type Airbus A320 Family](https://www.training.tarmacaerosave.aero/catalogue) : Formation théorique et pratique à la qualification de type T1/T2 sur la famille Airbus A320 (CFM56, IAE V2500, LEAP-1A).
-- [Qualification de Type Airbus A330 / A340](https://www.training.tarmacaerosave.aero/catalogue) : Formation à la qualification de type sur Airbus A330 (GE CF6, PW4000, RR Trent 700) et A340 (CFM56).
-- [Qualification de Type Boeing 737 / 777](https://www.training.tarmacaerosave.aero/catalogue) : Formation à la qualification de type sur Boeing 737-600/700/800/900 (CFM56) et 777-200/300 (GE90).
-- [Réglementation Part 145 / MOE Initial](https://www.training.tarmacaerosave.aero/catalogue) : Connaître et comprendre les procédures Part 145 pour exercer au sein d'un organisme de maintenance agréé.
-- [Recyclage des formations obligatoires réglementaires Part 145](https://www.training.tarmacaerosave.aero/catalogue) : Actualisation des connaissances réglementaires et techniques en maintenance aéronautique.
-- [CDCCL & Sécurité dans les réservoirs carburant](https://www.training.tarmacaerosave.aero/catalogue) : Règles de sécurité en atmosphère explosive et prévention des risques liés aux réservoirs carburant.
+- [Qualification de Type Airbus A320 Family](https://training.tarmacaerosave.aero/catalogue) : Formation théorique et pratique à la qualification de type T1/T2 sur la famille Airbus A320 (CFM56, IAE V2500, LEAP-1A).
+- [Qualification de Type Airbus A330 / A340](https://training.tarmacaerosave.aero/catalogue) : Formation à la qualification de type sur Airbus A330 (GE CF6, PW4000, RR Trent 700) et A340 (CFM56).
+- [Qualification de Type Boeing 737 / 777](https://training.tarmacaerosave.aero/catalogue) : Formation à la qualification de type sur Boeing 737-600/700/800/900 (CFM56) et 777-200/300 (GE90).
+- [Réglementation Part 145 / MOE Initial](https://training.tarmacaerosave.aero/catalogue) : Connaître et comprendre les procédures Part 145 pour exercer au sein d'un organisme de maintenance agréé.
+- [Recyclage des formations obligatoires réglementaires Part 145](https://training.tarmacaerosave.aero/catalogue) : Actualisation des connaissances réglementaires et techniques en maintenance aéronautique.
+- [CDCCL & Sécurité dans les réservoirs carburant](https://training.tarmacaerosave.aero/catalogue) : Règles de sécurité en atmosphère explosive et prévention des risques liés aux réservoirs carburant.
 
 ## Explorer l'offre
 
-- [Accueil](https://www.training.tarmacaerosave.aero/) : Présentation de TARMAC Aerosave Formation, recherche de formations, formations les plus demandées.
-- [Catalogue des formations](https://www.training.tarmacaerosave.aero/catalogue) : Catalogue complet des formations Part 147 (Airbus, Boeing) et Part 145, filtrable par catégorie et niveau.
-- [Calendrier des sessions](https://www.training.tarmacaerosave.aero/calendrier) : Disponibilité des sessions de formation, pour planifier une inscription individuelle ou collective.
-- [Notre centre de formation](https://www.training.tarmacaerosave.aero/notre-centre-de-formation) : Présentation du centre de Tarbes, accès aux aéronefs, simulateur, agrément Part 147 et certification Qualiopi, accès au site.
-- [Notre expertise](https://www.training.tarmacaerosave.aero/notre-expertise) : Notre solution clé en main, nos formations sur-mesure et le fonctionnement de nos sessions de formation.
-- [Le Groupe TARMAC Aerosave](https://www.training.tarmacaerosave.aero/le-groupe-tarmac-aerosave) : Présentation du Groupe TARMAC Aerosave — stockage, maintenance et recyclage d'aéronefs et de moteurs — et de son centre de formation.
-- [Nous contacter](https://www.training.tarmacaerosave.aero/nous-contacter) : Formulaire de contact, coordonnées et prise de rendez-vous pour organiser une formation ou obtenir un devis.
+- [Accueil](https://training.tarmacaerosave.aero/) : Présentation de TARMAC Aerosave Formation, recherche de formations, formations les plus demandées.
+- [Catalogue des formations](https://training.tarmacaerosave.aero/catalogue) : Catalogue complet des formations Part 147 (Airbus, Boeing) et Part 145, filtrable par catégorie et niveau.
+- [Calendrier des sessions](https://training.tarmacaerosave.aero/calendrier) : Disponibilité des sessions de formation, pour planifier une inscription individuelle ou collective.
+- [Notre centre de formation](https://training.tarmacaerosave.aero/notre-centre-de-formation) : Présentation du centre de Tarbes, accès aux aéronefs, simulateur, agrément Part 147 et certification Qualiopi, accès au site.
+- [Notre expertise](https://training.tarmacaerosave.aero/notre-expertise) : Notre solution clé en main, nos formations sur-mesure et le fonctionnement de nos sessions de formation.
+- [Le Groupe TARMAC Aerosave](https://training.tarmacaerosave.aero/le-groupe-tarmac-aerosave) : Présentation du Groupe TARMAC Aerosave — stockage, maintenance et recyclage d'aéronefs et de moteurs — et de son centre de formation.
+- [Nous contacter](https://training.tarmacaerosave.aero/nous-contacter) : Formulaire de contact, coordonnées et prise de rendez-vous pour organiser une formation ou obtenir un devis.
 
 ## Pourquoi choisir TARMAC Aerosave Formation
 
@@ -33,9 +33,9 @@ TARMAC Aerosave Formation s'appuie sur l'expertise terrain du Groupe TARMAC Aero
 
 ## Questions fréquentes
 
-- Quelles formations propose TARMAC Aerosave Formation ? Des qualifications de type Part 147 sur Airbus et Boeing, des formations réglementaires Part 145 (MOE, sensibilisation MOE/SGS, recyclage, CDCCL & sécurité réservoirs carburant) et des formations complémentaires (FOD, culture et technologies aéronautiques, mise en marche moteur sur simulateur) — voir le [catalogue complet](https://www.training.tarmacaerosave.aero/catalogue).
-- La certification Qualiopi permet-elle une prise en charge du financement ? Oui, les formations dispensées par un organisme certifié Qualiopi sont éligibles aux dispositifs de financement de la formation professionnelle ; se renseigner via la page [Nous contacter](https://www.training.tarmacaerosave.aero/nous-contacter).
-- Où se déroulent les formations ? Au centre de formation de Tarbes (France), ou dans les locaux du client selon le nombre de participants et le planning ; voir les [disponibilités par site sur le calendrier des sessions](https://www.training.tarmacaerosave.aero/calendrier).
+- Quelles formations propose TARMAC Aerosave Formation ? Des qualifications de type Part 147 sur Airbus et Boeing, des formations réglementaires Part 145 (MOE, sensibilisation MOE/SGS, recyclage, CDCCL & sécurité réservoirs carburant) et des formations complémentaires (FOD, culture et technologies aéronautiques, mise en marche moteur sur simulateur) — voir le [catalogue complet](https://training.tarmacaerosave.aero/catalogue).
+- La certification Qualiopi permet-elle une prise en charge du financement ? Oui, les formations dispensées par un organisme certifié Qualiopi sont éligibles aux dispositifs de financement de la formation professionnelle ; se renseigner via la page [Nous contacter](https://training.tarmacaerosave.aero/nous-contacter).
+- Où se déroulent les formations ? Au centre de formation de Tarbes (France), ou dans les locaux du client selon le nombre de participants et le planning ; voir les [disponibilités par site sur le calendrier des sessions](https://training.tarmacaerosave.aero/calendrier).
 - Les formations sont-elles ouvertes aux entreprises et aux particuliers ? TARMAC Aerosave Formation s'adresse aux professionnels de la maintenance aéronautique et aux organismes agréés Part 145, en formation individuelle ou collective (intra-entreprise).
 
 ## Contact
@@ -43,4 +43,4 @@ TARMAC Aerosave Formation s'appuie sur l'expertise terrain du Groupe TARMAC Aero
 - Adresse : L'Aérodrome - 65380 Azereix, France
 - Téléphone : 05 63 42 89 90
 - Email : training@tarmacaerosave.aero
-- Formulaire : [Nous contacter](https://www.training.tarmacaerosave.aero/nous-contacter)
+- Formulaire : [Nous contacter](https://training.tarmacaerosave.aero/nous-contacter)
