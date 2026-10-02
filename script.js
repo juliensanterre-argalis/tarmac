@@ -2357,8 +2357,8 @@ function createFormationCard(formation) {
       <div class="card-header">
         <h3 class="card-title" style="font-size: 1.25rem; margin-bottom: 0.75rem;">${formation.titre}</h3>
         ${hierarchyLabel ? `
-        <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem;">
-          <span class="badge badge-secondary" style="flex-shrink: 0;">${hierarchyLabel}</span>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.5rem 1rem;">
+          <span class="badge badge-secondary" style="max-width: 100%;">${hierarchyLabel}</span>
           <span style="font-size: 0.75rem; color: hsl(var(--muted-foreground)); font-weight: 600; white-space: nowrap;">${formation.reference}</span>
         </div>
         ` : `<span style="font-size: 0.75rem; color: hsl(var(--muted-foreground)); font-weight: 600; text-align: right; display: block;">${formation.reference}</span>`}

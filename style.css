@@ -572,6 +572,16 @@ ul li {
   flex-direction: column;
 }
 
+/* Le titre reste en haut ; badge, référence, durée et prix sont ancrés en bas
+   pour être à la même hauteur sur des tuiles côte à côte */
+.card.formation-card .card-header {
+  flex: 1;
+}
+
+.card.formation-card .card-header > :last-child {
+  margin-top: auto;
+}
+
 .card.formation-card .card-footer {
   margin-top: auto;
 }
