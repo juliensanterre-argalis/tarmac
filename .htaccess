@@ -6,6 +6,9 @@ RewriteBase /
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
 RewriteRule ^data(/|$) - [F,NC]
 
+# Bloquer l'accès à la documentation interne (README.md et autres fichiers Markdown)
+RewriteRule \.md$ - [F,NC]
+
 # Exports formations et sessions : déposés par le cron dans le sous-dossier web/ du FS Bucket
 RewriteCond %{DOCUMENT_ROOT}/data/web/$1.json -f
 RewriteRule ^(export_formation|export_session)\.json$ data/web/$1.json [L]
