@@ -1431,7 +1431,8 @@ function mapAndCleanData(rawFormations) {
       prerequis: formation.prerequis && cleanValue(formation.prerequis) ? formation.prerequis.split('|').filter(pre => pre.trim()) : ['Aucun'],
       modalites: {
         deroulement: cleanValue(formation.deroulement_formation, 'Information non disponible'),
-        methodes_et_moyens: cleanValue(formation.methode_mobilisation, 'Information non disponible')
+        methodes_et_moyens: cleanValue(formation.methode_mobilisation, 'Information non disponible'),
+        acces: cleanValue(formation.acces_modalite, 'Information non disponible')
       },
       accessibiliteHandicap: cleanValue(formation.acces_handi, 'Merci de nous contacter pour plus d\'informations sur l\'accessibilité'),
       programme: cleanValue(formation.programme, '<p>Programme non disponible</p>'),
@@ -1958,6 +1959,9 @@ function searchFormations(formations, query) {
         return true;
       }
       if (formation.modalites.methodes_et_moyens && formation.modalites.methodes_et_moyens.toLowerCase().includes(searchTerm)) {
+        return true;
+      }
+      if (formation.modalites.acces && formation.modalites.acces.toLowerCase().includes(searchTerm)) {
         return true;
       }
     }
@@ -2748,6 +2752,13 @@ function createModalitesCard(formation) {
             MÉTHODES ET MOYENS
           </div>
           <p class="whitespace-pre-line">${formation.modalites.methodes_et_moyens}</p>
+        </div>
+        <div class="separator separator-horizontal"></div>
+        <div>
+          <div style="display: inline-block; background: hsl(var(--primary) / 0.1); color: hsl(var(--primary)); padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; margin-bottom: 0.75rem;">
+            MODALITÉS ET DÉLAIS D'ACCÈS
+          </div>
+          <p class="whitespace-pre-line">${formation.modalites.acces}</p>
         </div>
       </div>
     </div>
